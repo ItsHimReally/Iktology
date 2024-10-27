@@ -31,3 +31,6 @@
 -------
 ## Окружение
 Наше решение было протестировано на хостах с характеристиками: Intel Xeon (Skylake), RAM 64GB, Nvidia Tesla V100-32GB.
+
+-------
+<img alt="demo" width="700px" src="web/images/demo.gif">
