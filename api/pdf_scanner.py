@@ -11,6 +11,8 @@ from datetime import datetime, timedelta
 import os
 from pathlib import PurePosixPath
 
+TESSERACT_PATH = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 class PDFScanner: # Класс, отвечающий за сканирование PDF-Документов
     CATEGORY_UPPER_BOUND = 3000 # Кол-во символов, которые используются для определения категории
